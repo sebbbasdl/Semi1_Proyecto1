@@ -1,0 +1,30 @@
+/* RegistroUsuario.css */  
+  .input-container {
+    margin-bottom: 20px; /* Espacio entre campos de entrada */
+  }
+  
+  .animated-button {
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .animated-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+
+  .add-button {
+  border: none;
+  border-radius: 50%; /* Hace que el botón sea circular */
+  background-color: #0a5cb3; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  font-size: 24px; /* Tamaño de fuente del símbolo "+" */
+  width: 40px; /* Tamaño del botón */
+  height: 40px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 650px; /* Ajusta la posición según tus preferencias */
+  right: 900px; /* Ajusta la posición según tus preferencias */
+}
+

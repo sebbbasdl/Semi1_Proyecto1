@@ -1,0 +1,9 @@
+/* PaginaPrincipal.css (o tu archivo de estilos personalizado) */
+
+.btn-super {
+  margin-top: 12rem;  
+  font-size: 2rem; /* Aumenta el tamaño de la fuente para hacer los botones más grandes */
+  padding: 20px 35px; /* Aumenta el relleno para hacer los botones más grandes */
+}
+
+

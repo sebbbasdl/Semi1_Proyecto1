@@ -1,0 +1,128 @@
+
+.contenedor {
+    position: absolute;
+    top: 100px; /* Ubicación vertical en píxeles desde la parte superior */
+    left: 600px; /* Ubicación horizontal en píxeles desde la izquierda */
+    width: 400px; /* Ancho del elemento en píxeles */
+    height: 200px; /* Altura del elemento en píxeles */
+    text-align: center;
+}
+
+  
+  /* Estilo para la foto de perfil circular */
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .profile-photo {
+    width: 390x;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Estilo para los campos editables */
+  .editable-field {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .editable-field:hover {
+    background-color: #0adfeec7;
+  }
+  
+  /* Estilo para los botones con animación */
+  .button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.1s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button:active {
+    transform: scale(0.95);
+  }
+  
+  .form-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .profile-picture-contenedor {
+    margin-right: 20px; /* Espacio entre la imagen de perfil y el formulario */
+  }
+  
+  .form-fields {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .editable-field {
+    margin-bottom: 10px; /* Espacio entre los campos del formulario */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .label {
+    font-size: 18px; /* Tamaño de fuente de las etiquetas */
+    margin-bottom: 5px; /* Espacio entre la etiqueta y el campo de entrada */
+  }
+  
+  .input-field {
+    padding: 5px;
+    font-size: 16px; /* Tamaño de fuente de los campos de entrada */
+  }
+  
+  .button {
+    margin-top: 10px; /* Espacio entre el formulario y el botón */
+    padding: 10px 20px;
+    font-size: 16px; /* Tamaño de fuente del botón */
+  }
+  
+  .add-button-perfil {
+    border: none;
+    border-radius: 50%; /* Hace que el botón sea circular */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    font-size: 18px; /* Tamaño de fuente del símbolo "+" */
+    width: 40px; /* Tamaño del botón */
+    height: 30px;
+    bottom: 200px;
+    right: 200px; /* Ajusta la posición según tus preferencias */
+  }
+  
+  .user-info {
+    margin-top: 20px; /* Espacio superior entre la imagen de perfil y la información del usuario */
+    background-color: #424242; /* Color de fondo */
+    padding: 20px; /* Espacio interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+  }
+  
+  .user-info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; /* Espacio entre las filas de información */
+    font-size: 18px; /* Tamaño de fuente */
+  }
+  
+  .user-info-row label {
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  .user-info-row span {
+    flex-grow: 1; /* Hace que el texto ocupe todo el espacio disponible */
+    margin-left: 10px; /* Espacio entre la etiqueta y el texto */
+  }
+  

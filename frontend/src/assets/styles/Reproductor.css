@@ -1,0 +1,62 @@
+.audio-player-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow-y: auto;
+  z-index: 1000;
+  background-color: #333; /* Cambia el color de fondo según tu diseño */
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+}
+
+.centered-audio-container {
+    width: 100%;
+    max-width: 400px; /* Define el ancho máximo del reproductor */
+  }
+
+/* ReproductorPersonalizado.css */
+
+  /* Cambia el color de fondo de los controles */
+  .plyr__controls {
+    background-color: #48b656;
+  }
+
+  /* Cambia el color de los íconos */
+  .plyr__control {
+    color: #48b656;
+  }
+
+  /* Cambia el color del progreso de la barra */
+  .plyr__progress--played,
+  .plyr__volume--display,
+  .plyr__menu__container {
+    background: #f55414;
+  }
+
+  .plyr--audio .plyr__controls {
+    background: #49495a;
+    border-radius: 2rem;
+    color: var(--plyr-audio-control-color,#e5e8ec);
+    padding: 10px;
+    padding: var(--plyr-control-spacing,10px);
+}
+
+.custom-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.prev-button,
+.next-button {
+  border: none;
+  cursor: pointer;
+  background-size: contain; /* Ajusta el tamaño de la imagen para que quepa en el botón */
+  width: 48px; /* Ajusta el ancho de acuerdo al tamaño de la imagen */
+  height: 48px; /* Ajusta la altura de acuerdo al tamaño de la imagen */
+  padding: 0; /* Remueve cualquier espacio interior del botón */
+  border-radius: 50px;
+  background-color: #2a6d94;
+}
